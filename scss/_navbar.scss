@@ -73,13 +73,14 @@
   padding-bottom: $navbar-brand-padding-y;
   margin-right: 1rem;
   font-size: $font-size-lg;
+  font-weight: 200;
 
   @include hover-focus {
     text-decoration: none;
   }
 
   > img {
-    display: block;
+    height: 32px;
   }
 }
 
