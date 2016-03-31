@@ -71,7 +71,7 @@
   float: left;
   padding-top:    $navbar-brand-padding-y;
   padding-bottom: $navbar-brand-padding-y;
-  margin-right: 1rem;
+  margin-right: 2rem;
   font-size: $font-size-lg;
   font-weight: 200;
 
@@ -79,8 +79,9 @@
     text-decoration: none;
   }
 
-  > img {
+  > .logo {
     height: 32px;
+    margin-right: 2rem;
   }
 }
 

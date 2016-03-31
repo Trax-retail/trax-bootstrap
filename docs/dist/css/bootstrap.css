@@ -4161,7 +4161,7 @@ input[type="button"].btn-block {
   float: left;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-  margin-right: 1rem;
+  margin-right: 2rem;
   font-size: 1.25rem;
   font-weight: 200;
 }
@@ -4170,8 +4170,9 @@ input[type="button"].btn-block {
   text-decoration: none;
 }
 
-.navbar-brand > img {
+.navbar-brand > .logo {
   height: 32px;
+  margin-right: 2rem;
 }
 
 .navbar-divider {
