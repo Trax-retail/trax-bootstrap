@@ -3282,6 +3282,8 @@ input[type="button"].btn-block {
 
 .action-text {
   position: relative;
+  text-transform: uppercase;
+  font-weight: 300;
 }
 
 .action-text::before, .action-text::after {

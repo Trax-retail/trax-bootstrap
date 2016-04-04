@@ -1,5 +1,7 @@
 .action-text {
   position: relative;
+  text-transform: uppercase;
+  font-weight: 300;
 
   &::before,
   &::after {
