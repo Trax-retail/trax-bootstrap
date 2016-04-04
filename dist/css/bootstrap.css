@@ -3280,6 +3280,50 @@ input[type="button"].btn-block {
   width: 100%;
 }
 
+.action-text {
+  position: relative;
+}
+
+.action-text::before, .action-text::after {
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 5px;
+  width: 28px;
+  height: 28px;
+  background-color: #e6e6e6;
+  border-radius: 50%;
+  z-index: -1;
+  opacity: 0;
+}
+
+.action-text::before {
+  left: -6%;
+}
+
+.action-text::after {
+  right: -6%;
+}
+
+.action-text:hover {
+  text-decoration: none;
+}
+
+.action-text:hover::before, .action-text:hover::after {
+  opacity: 1;
+}
+
+.action-text:hover::before {
+  left: calc(50% - 14px);
+}
+
+.action-text:hover::after {
+  right: calc(50% - 14px);
+}
+
 .fade {
   opacity: 0;
   -webkit-transition: opacity .15s linear;
