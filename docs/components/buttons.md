@@ -35,11 +35,11 @@ Bootstrap includes six predefined button styles, each serving its own semantic p
 <!-- Indicates a dangerous or potentially negative action -->
 <button type="button" class="btn btn-danger">Danger</button>
 
-<!-- Action-text: a button that looks like text, iOS style -->
-<button class="btn btn-link action-text">Action-text</button>
-
 <!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
 <button type="button" class="btn btn-link">Link</button>
+
+<!-- Action-text: a button that looks like text, iOS style -->
+<button class="btn action-text">Action-text</button>
 {% endexample %}
 
 {% capture callout-include %}{% include callout-warning-color-assistive-technologies.md %}{% endcapture %}
